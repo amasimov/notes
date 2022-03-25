@@ -1,0 +1,75 @@
+{
+    "authorization": {
+        "action": "Microsoft.Compute/virtualMachineScaleSets/write",
+        "scope": "/subscriptions/a19f572f-8409-446f-8f5d-b5885b85c209/resourceGroups/MC_Poc-Kubernetes_banking1_uksouth/providers/Microsoft.Compute/virtualMachineScaleSets/aksnpwin"
+    },
+    "caller": "c3a223f2-12cf-4665-a709-629736f8bd60",
+    "channels": "Operation",
+    "claims": {
+        "aud": "https://management.core.windows.net/",
+        "iss": "https://sts.windows.net/23221574-d1a1-4978-99b9-391dae52217c/",
+        "iat": "1648250216",
+        "nbf": "1648250216",
+        "exp": "1648336916",
+        "aio": "E2ZgYJjN5iHQE/H50MKpUgoLxdYfBwA=",
+        "appid": "7319c514-987d-4e9b-ac3d-d38c4f427f4c",
+        "appidacr": "2",
+        "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/23221574-d1a1-4978-99b9-391dae52217c/",
+        "idtyp": "app",
+        "http://schemas.microsoft.com/identity/claims/objectidentifier": "c3a223f2-12cf-4665-a709-629736f8bd60",
+        "rh": "0.ATsAdBUiI6HReEmZuTkdrlIhfEZIf3kAutdPukPawfj2MBM7AAA.",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "c3a223f2-12cf-4665-a709-629736f8bd60",
+        "http://schemas.microsoft.com/identity/claims/tenantid": "23221574-d1a1-4978-99b9-391dae52217c",
+        "uti": "Ffd9TQufmEW1okOV0yEEAA",
+        "ver": "1.0",
+        "xms_tcdt": "1565719078"
+    },
+    "correlationId": "a9672097-0264-40ba-b5a9-2455e5cc1a0a",
+    "description": "",
+    "eventDataId": "c1286f40-7ebc-4aea-a1a0-324827a7e8a5",
+    "eventName": {
+        "value": "EndRequest",
+        "localizedValue": "End request"
+    },
+    "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+    },
+    "eventTimestamp": "2022-03-25T23:39:53.8638985Z",
+    "id": "/subscriptions/a19f572f-8409-446f-8f5d-b5885b85c209/resourcegroups/MC_Poc-Kubernetes_banking1_uksouth/providers/Microsoft.Compute/virtualMachineScaleSets/aksnpwin/events/c1286f40-7ebc-4aea-a1a0-324827a7e8a5/ticks/637838483938638985",
+    "level": "Error",
+    "operationId": "f327ddb6-9eee-406d-be6e-1a9745d6dda0",
+    "operationName": {
+        "value": "Microsoft.Compute/virtualMachineScaleSets/write",
+        "localizedValue": "Create or Update Virtual Machine Scale Set"
+    },
+    "resourceGroupName": "MC_Poc-Kubernetes_banking1_uksouth",
+    "resourceProviderName": {
+        "value": "Microsoft.Compute",
+        "localizedValue": "Microsoft.Compute"
+    },
+    "resourceType": {
+        "value": "Microsoft.Compute/virtualMachineScaleSets",
+        "localizedValue": "Microsoft.Compute/virtualMachineScaleSets"
+    },
+    "resourceId": "/subscriptions/a19f572f-8409-446f-8f5d-b5885b85c209/resourcegroups/MC_Poc-Kubernetes_banking1_uksouth/providers/Microsoft.Compute/virtualMachineScaleSets/aksnpwin",
+    "status": {
+        "value": "Failed",
+        "localizedValue": "Failed"
+    },
+    "subStatus": {
+        "value": "",
+        "localizedValue": ""
+    },
+    "submissionTimestamp": "2022-03-25T23:40:31.1049863Z",
+    "subscriptionId": "a19f572f-8409-446f-8f5d-b5885b85c209",
+    "tenantId": "23221574-d1a1-4978-99b9-391dae52217c",
+    "properties": {
+        "statusMessage": "{\"status\":\"Failed\",\"error\":{\"code\":\"ResourceOperationFailure\",\"message\":\"The resource operation completed with terminal provisioning state 'Failed'.\",\"details\":[{\"code\":\"VMExtensionProvisioningError\",\"message\":\"VM has reported a failure when processing extension 'vmssCSE'. Error message: \\\"Command execution finished, but failed because it returned a non-zero exit code of: '5'\\\"\\r\\n\\r\\nMore information on troubleshooting is available at https://aka.ms/VMExtensionCSEWindowsTroubleshoot \"}]}}",
+        "eventCategory": "Administrative",
+        "entity": "/subscriptions/a19f572f-8409-446f-8f5d-b5885b85c209/resourcegroups/MC_Poc-Kubernetes_banking1_uksouth/providers/Microsoft.Compute/virtualMachineScaleSets/aksnpwin",
+        "message": "Microsoft.Compute/virtualMachineScaleSets/write",
+        "hierarchy": "23221574-d1a1-4978-99b9-391dae52217c/a19f572f-8409-446f-8f5d-b5885b85c209"
+    },
+    "relatedEvents": []
+}
